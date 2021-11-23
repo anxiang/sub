@@ -1,0 +1,629 @@
+port: 7890
+socks-port: 7891
+allow-lan: true
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
+proxies:
+  - {name: 🇹🇼 台湾02, server: 203.69.53.127, port: 443, type: ss, cipher: aes-256-gcm, password: c5c41727af83, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wds12.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾08, server: 211.23.141.54, port: 443, type: ss, cipher: aes-256-gcm, password: 3c7ab2c61374, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx600twnewss002.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾06, server: 211.21.20.192, port: 443, type: ss, cipher: aes-256-gcm, password: ab9159caa85a, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: Dx600twnew3.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾09, server: 60.250.137.213, port: 443, type: ss, cipher: aes-256-gcm, password: 90185e1ac1cf, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx600twnews001.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾tw, server: 60.250.153.102, port: 443, type: ss, cipher: aes-256-gcm, password: 32f424b28a05, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wds11.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾07, server: 220.130.18.217, port: 443, type: ss, cipher: aes-256-gcm, password: 973d3abdc9b2, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: Dx600twnew4.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾00, server: 60.251.66.27, port: 443, type: ss, cipher: aes-256-gcm, password: 02108df50c2b, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dx600twnews003.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾01, server: 59.125.101.101, port: 443, type: ss, cipher: aes-256-gcm, password: 68e13c9db0a9, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wd5.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾05, server: 60.251.66.116, port: 443, type: ss, cipher: aes-256-gcm, password: fa1461264001, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wds10.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾03, server: 59.125.98.29, port: 443, type: ss, cipher: aes-256-gcm, password: a22c307e4a69, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wd8.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇹🇼 台湾04, server: 203.69.243.19, port: 443, type: ss, cipher: aes-256-gcm, password: cb411c16c567, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wdnew10.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇭🇰 香港03, server: 60.250.78.252, port: 443, type: ss, cipher: aes-256-gcm, password: bb01c71b1c9d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: twn600wd4.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇭🇰 香港05, server: 206.119.115.55, port: 443, type: ss, cipher: aes-256-gcm, password: f56e2142b4d9, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: dxhk1000new003.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇺🇸 美国02, server: 194.76.0.4, port: 443, type: ss, cipher: aes-256-gcm, password: 9bc9c622dd8d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: yyusnew003.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇯🇵 日本02, server: 202.79.166.241, port: 443, type: ss, cipher: aes-256-gcm, password: f58cddf6cd9d, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: xw1.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇰🇷 韩国02, server: 27.124.44.5, port: 443, type: ss, cipher: aes-256-gcm, password: fcc1e096fe7f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: jc10.soflyso.info, path: "", tls: true, mux: true, skip-cert-verify: false}}
+  - {name: 🇸🇬 新加坡01, server: global-transit-02-sg.pucdn.me, port: 61002, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-sg-03.pucdn.me}}
+  - {name: 🇯🇵 日本01, server: global-transit-hk-v2.pucdn.me, port: 40004, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-04.pucdn.me}}
+  - {name: 🇯🇵 日本03, server: global-transit-hk-v2.pucdn.me, port: 40005, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-05.pucdn.me}}
+  - {name: 🇯🇵 日本04, server: global-transit-hk-v2.pucdn.me, port: 40006, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l1-aws-jp-06.pucdn.me}}
+  - {name: 🇹🇼 台湾11, server: guangzhou-lw-03.pucdn.me, port: 21101, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-02.pucdn.me}}
+  - {name: 🇹🇼 台湾12, server: guangzhou-lw-03.pucdn.me, port: 21104, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-04.pucdn.me}}
+  - {name: 🇹🇼 台湾13, server: guangzhou-lw-03.pucdn.me, port: 21107, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: L2-tw-07.pucdn.me}}
+  - {name: 🇭🇰 香港02, server: guangzhou-lw-03.pucdn.me, port: 11113, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-06.pucdn.me}}
+  - {name: 🇭🇰 香港04, server: guangzhou-lw-03.pucdn.me, port: 11115, type: vmess, uuid: 6578322c-a4fe-3c92-b7b5-c0684d790c53, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /vvv, ws-headers: {Host: l2-hkt-a-08.pucdn.me}}
+  - {name: 🇺🇸 美国01, server: 154.17.2.33, port: 18335, type: ss, cipher: chacha20-ietf-poly1305, password: C3YpRKZC8u5q9p73Dl832c3IaXwAOnzEyDjgae0ZFORA6SDSClaSxyBxYN4TeF}
+  - {name: 🇰🇷 韩国01, server: 152.67.221.219, port: 42881, type: vmess, uuid: 27630c86-f420-45d8-a64d-f33be59ee05a, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 香港01, server: advanced-cm-3.nodesub.com, port: 3609, type: ss, cipher: rc4-md5, password: RenzheCloudSS, plugin: obfs, plugin-opts: {mode: http, host: 2daab45545.microsoft.com}}
+proxy-groups:
+  - name: Proxies
+    type: select
+    proxies:
+      - HK
+      - TW     
+      - SG
+      - JP
+      - KR
+      - US
+  - name: Apple
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: MicroSoft
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: Telegram
+    type: select
+    proxies:
+      - Proxies
+  - name: Netflix
+    type: select
+    proxies:
+      - HK
+      - TW     
+      - SG
+      - JP
+      - KR
+      - US
+  - name: Disney
+    type: select
+    proxies:
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+      - 🇹🇼 台湾00
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾11
+      - 🇹🇼 台湾12
+      - 🇹🇼 台湾13
+      - 🇹🇼 台湾tw
+  - name: Netease
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: HKMTMedia
+    type: select
+    proxies:
+      - DIRECT
+      - Proxies
+  - name: PlusMedia
+    type: select
+    proxies:
+      - Proxies
+  - name: HK
+    type: select
+    proxies:
+      - 🇭🇰 香港01
+      - 🇭🇰 香港02
+      - 🇭🇰 香港03
+      - 🇭🇰 香港04
+      - 🇭🇰 香港05
+  - name: TW
+    type: select
+    proxies:
+      - 🇹🇼 台湾00
+      - 🇹🇼 台湾01
+      - 🇹🇼 台湾02
+      - 🇹🇼 台湾03
+      - 🇹🇼 台湾04
+      - 🇹🇼 台湾05
+      - 🇹🇼 台湾06
+      - 🇹🇼 台湾07
+      - 🇹🇼 台湾08
+      - 🇹🇼 台湾09
+      - 🇹🇼 台湾11
+      - 🇹🇼 台湾12
+      - 🇹🇼 台湾13
+      - 🇹🇼 台湾tw
+  - name: SG
+    type: select
+    proxies:
+      - 🇸🇬 新加坡01
+  - name: JP
+    type: select
+    proxies:
+      - 🇯🇵 日本01
+      - 🇯🇵 日本02
+      - 🇯🇵 日本03
+      - 🇯🇵 日本04
+  - name: KR
+    type: select
+    proxies:
+      - 🇰🇷 韩国01
+      - 🇰🇷 韩国02
+  - name: US
+    type: select
+    proxies:
+      - 🇺🇸 美国01
+      - 🇺🇸 美国02
+rules:
+ - DOMAIN-SUFFIX,1password.com,DIRECT
+ - DOMAIN-SUFFIX,vultr.com,DIRECT
+ - DOMAIN-SUFFIX,mb3admin.com,DIRECT
+ - DOMAIN-SUFFIX,rixcloud.io,DIRECT
+ - DOMAIN-SUFFIX,tempestapp.io,DIRECT
+ - DOMAIN,mtalk.google.com,DIRECT
+ - DOMAIN,alt1-mtalk.google.com,DIRECT
+ - DOMAIN,alt2-mtalk.google.com,DIRECT
+ - DOMAIN,alt3-mtalk.google.com,DIRECT
+ - DOMAIN,alt4-mtalk.google.com,DIRECT
+ - DOMAIN,alt5-mtalk.google.com,DIRECT
+ - DOMAIN,alt6-mtalk.google.com,DIRECT
+ - DOMAIN,alt7-mtalk.google.com,DIRECT
+ - DOMAIN,alt8-mtalk.google.com,DIRECT
+ - DOMAIN,alt9-mtalk.google.com,DIRECT
+ - DOMAIN,captive.apple.com,DIRECT
+ - DOMAIN,time-ios.apple.com,DIRECT
+ - DOMAIN-SUFFIX,gateway.push-apple.com.akadns.net,DIRECT
+ - DOMAIN-SUFFIX,push.apple.com,DIRECT
+ - DOMAIN-KEYWORD,baidu,DIRECT
+ - DOMAIN-SUFFIX,erebor.douban.com,DIRECT
+ - DOMAIN-KEYWORD,github,Proxies
+ - DOMAIN-SUFFIX,github.com,Proxies
+ - DOMAIN-SUFFIX,github.io,Proxies
+ - DOMAIN-SUFFIX,githubapp.com,Proxies
+ - DOMAIN-SUFFIX,githubassets.com,Proxies
+ - DOMAIN-SUFFIX,githubusercontent.com,Proxies
+ - DOMAIN-SUFFIX,home-intl.console.aliyun.com,Proxies
+ - DOMAIN,ip.skk.moe,Proxies
+ - DOMAIN,ip.sb,Proxies
+ - DOMAIN-SUFFIX,googleapis.cn,Proxies
+ - DOMAIN-KEYWORD,1drv,MicroSoft
+ - DOMAIN-KEYWORD,microsoft,MicroSoft
+ - DOMAIN-SUFFIX,aadrm.com,MicroSoft
+ - DOMAIN-SUFFIX,acompli.com,MicroSoft
+ - DOMAIN-SUFFIX,acompli.net,MicroSoft
+ - DOMAIN-SUFFIX,aka.ms,MicroSoft
+ - DOMAIN-SUFFIX,akadns.net,MicroSoft
+ - DOMAIN-SUFFIX,aspnetcdn.com,MicroSoft
+ - DOMAIN-SUFFIX,assets-yammer.com,MicroSoft
+ - DOMAIN-SUFFIX,azure.com,MicroSoft
+ - DOMAIN-SUFFIX,azure.net,MicroSoft
+ - DOMAIN-SUFFIX,azureedge.net,MicroSoft
+ - DOMAIN-SUFFIX,azurerms.com,MicroSoft
+ - DOMAIN-SUFFIX,bing.com,MicroSoft
+ - DOMAIN-SUFFIX,cloudapp.net,MicroSoft
+ - DOMAIN-SUFFIX,cloudappsecurity.com,MicroSoft
+ - DOMAIN-SUFFIX,edgesuite.net,MicroSoft
+ - DOMAIN-SUFFIX,gfx.ms,MicroSoft
+ - DOMAIN-SUFFIX,hotmail.com,MicroSoft
+ - DOMAIN-SUFFIX,live.com,MicroSoft
+ - DOMAIN-SUFFIX,live.net,MicroSoft
+ - DOMAIN-SUFFIX,lync.com,MicroSoft
+ - DOMAIN-SUFFIX,msappproxy.net,MicroSoft
+ - DOMAIN-SUFFIX,msauth.net,MicroSoft
+ - DOMAIN-SUFFIX,msauthimages.net,MicroSoft
+ - DOMAIN-SUFFIX,msecnd.net,MicroSoft
+ - DOMAIN-SUFFIX,msedge.net,MicroSoft
+ - DOMAIN-SUFFIX,msft.net,MicroSoft
+ - DOMAIN-SUFFIX,msftauth.net,MicroSoft
+ - DOMAIN-SUFFIX,msftauthimages.net,MicroSoft
+ - DOMAIN-SUFFIX,msftidentity.com,MicroSoft
+ - DOMAIN-SUFFIX,msidentity.com,MicroSoft
+ - DOMAIN-SUFFIX,msn.com,MicroSoft
+ - DOMAIN-SUFFIX,msocdn.com,MicroSoft
+ - DOMAIN-SUFFIX,msocsp.com,MicroSoft
+ - DOMAIN-SUFFIX,mstea.ms,MicroSoft
+ - DOMAIN-SUFFIX,o365weve.com,MicroSoft
+ - DOMAIN-SUFFIX,oaspapps.com,MicroSoft
+ - DOMAIN-SUFFIX,office.com,MicroSoft
+ - DOMAIN-SUFFIX,office.net,MicroSoft
+ - DOMAIN-SUFFIX,office365.com,MicroSoft
+ - DOMAIN-SUFFIX,officeppe.net,MicroSoft
+ - DOMAIN-SUFFIX,omniroot.com,MicroSoft
+ - DOMAIN-SUFFIX,onedrive.com,MicroSoft
+ - DOMAIN-SUFFIX,onenote.com,MicroSoft
+ - DOMAIN-SUFFIX,onenote.net,MicroSoft
+ - DOMAIN-SUFFIX,onestore.ms,MicroSoft
+ - DOMAIN-SUFFIX,outlook.com,MicroSoft
+ - DOMAIN-SUFFIX,outlookmobile.com,MicroSoft
+ - DOMAIN-SUFFIX,phonefactor.net,MicroSoft
+ - DOMAIN-SUFFIX,public-trust.com,MicroSoft
+ - DOMAIN-SUFFIX,sfbassets.com,MicroSoft
+ - DOMAIN-SUFFIX,sfx.ms,MicroSoft
+ - DOMAIN-SUFFIX,sharepoint.com,MicroSoft
+ - DOMAIN-SUFFIX,sharepointonline.com,MicroSoft
+ - DOMAIN-SUFFIX,skype.com,MicroSoft
+ - DOMAIN-SUFFIX,skypeassets.com,MicroSoft
+ - DOMAIN-SUFFIX,skypeforbusiness.com,MicroSoft
+ - DOMAIN-SUFFIX,staffhub.ms,MicroSoft
+ - DOMAIN-SUFFIX,svc.ms,MicroSoft
+ - DOMAIN-SUFFIX,sway-cdn.com,MicroSoft
+ - DOMAIN-SUFFIX,sway-extensions.com,MicroSoft
+ - DOMAIN-SUFFIX,sway.com,MicroSoft
+ - DOMAIN-SUFFIX,trafficmanager.net,MicroSoft
+ - DOMAIN-SUFFIX,uservoice.com,MicroSoft
+ - DOMAIN-SUFFIX,virtualearth.net,MicroSoft
+ - DOMAIN-SUFFIX,visualstudio.com,MicroSoft
+ - DOMAIN-SUFFIX,windows-ppe.net,MicroSoft
+ - DOMAIN-SUFFIX,windows.com,MicroSoft
+ - DOMAIN-SUFFIX,windows.net,MicroSoft
+ - DOMAIN-SUFFIX,windowsazure.com,MicroSoft
+ - DOMAIN-SUFFIX,windowsupdate.com,MicroSoft
+ - DOMAIN-SUFFIX,wunderlist.com,MicroSoft
+ - DOMAIN-SUFFIX,yammer.com,MicroSoft
+ - DOMAIN-SUFFIX,yammerusercontent.com,MicroSoft
+ - DOMAIN-SUFFIX,t.me,Telegram
+ - DOMAIN-SUFFIX,tdesktop.com,Telegram
+ - DOMAIN-SUFFIX,telegra.ph,Telegram
+ - DOMAIN-SUFFIX,telesco.pe,Telegram
+ - IP-CIDR,91.108.4.0/22,Telegram,no-resolve
+ - IP-CIDR,91.108.8.0/22,Telegram,no-resolve
+ - IP-CIDR,91.108.12.0/22,Telegram,no-resolve
+ - IP-CIDR,91.108.16.0/22,Telegram,no-resolve
+ - IP-CIDR,91.108.56.0/22,Telegram,no-resolve
+ - IP-CIDR,149.154.160.0/20,Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23d::/48,Telegram,no-resolve
+ - IP-CIDR6,2001:b28:f23f::/48,Telegram,no-resolve
+ - IP-CIDR6,2001:67c:4e8::/48,Telegram,no-resolve
+ - DOMAIN-SUFFIX,163yun.com,Netease
+ - DOMAIN-SUFFIX,music.163.com,Netease
+ - DOMAIN-SUFFIX,music.126.net,Netease
+ - DOMAIN-SUFFIX,api.iplay.163.com,Netease
+ - DOMAIN-SUFFIX,apm.music.163.com,Netease
+ - DOMAIN-SUFFIX,apm3.music.163.com,Netease
+ - DOMAIN-SUFFIX,interface.music.163.com,Netease
+ - DOMAIN-SUFFIX,interface3.music.163.com,Netease
+ - DOMAIN-SUFFIX,mam.netease.com,Netease
+ - DOMAIN-SUFFIX,hz.netease.com,Netease
+ - IP-CIDR,39.105.63.80/32,Netease
+ - IP-CIDR,45.254.48.1/32,Netease
+ - IP-CIDR,47.100.127.239/32,Netease
+ - IP-CIDR,59.111.21.14/31,Netease
+ - IP-CIDR,59.111.179.214/32,Netease
+ - IP-CIDR,59.111.181.38/32,Netease
+ - IP-CIDR,59.111.181.60/32,Netease
+ - IP-CIDR,59.111.160.195/32,Netease
+ - IP-CIDR,59.111.160.197/32,Netease
+ - IP-CIDR,59.111.181.35/32,Netease
+ - IP-CIDR,59.111.238.29/32,Netease
+ - IP-CIDR,101.71.154.241/32,Netease
+ - IP-CIDR,103.126.92.132/32,Netease
+ - IP-CIDR,103.126.92.133/32,Netease
+ - IP-CIDR,112.13.119.17/32,Netease
+ - IP-CIDR,112.13.122.1/32,Netease
+ - IP-CIDR,115.236.118.33/32,Netease
+ - IP-CIDR,115.236.121.1/32,Netease
+ - IP-CIDR,118.24.63.156/32,Netease
+ - IP-CIDR,193.112.159.225/32,Netease
+ - IP-CIDR,223.252.199.66/32,Netease
+ - IP-CIDR,223.252.199.67/32,Netease
+ - DOMAIN-SUFFIX,netflix.com,Netflix
+ - DOMAIN-SUFFIX,netflix.net,Netflix
+ - DOMAIN-SUFFIX,nflxext.com,Netflix
+ - DOMAIN-SUFFIX,nflximg.com,Netflix
+ - DOMAIN-SUFFIX,nflximg.net,Netflix
+ - DOMAIN-SUFFIX,nflxso.net,Netflix
+ - DOMAIN-SUFFIX,nflxvideo.net,Netflix
+ - IP-CIDR,108.175.32.0/20,Netflix
+ - IP-CIDR,185.2.220.0/22,Netflix
+ - IP-CIDR,185.9.188.0/22,Netflix
+ - IP-CIDR,192.173.127.0/24,Netflix
+ - IP-CIDR,192.173.64.0/18,Netflix
+ - IP-CIDR,192.173.65.0/24,Netflix
+ - IP-CIDR,192.173.66.0/24,Netflix
+ - IP-CIDR,192.173.67.0/24,Netflix
+ - IP-CIDR,192.173.68.0/24,Netflix
+ - IP-CIDR,192.173.70.0/24,Netflix
+ - IP-CIDR,192.173.72.0/24,Netflix
+ - IP-CIDR,192.173.73.0/24,Netflix
+ - IP-CIDR,192.173.74.0/24,Netflix
+ - IP-CIDR,192.173.76.0/24,Netflix
+ - IP-CIDR,192.173.78.0/24,Netflix
+ - IP-CIDR,192.173.79.0/24,Netflix
+ - IP-CIDR,198.38.108.0/24,Netflix
+ - IP-CIDR,198.38.109.0/24,Netflix
+ - IP-CIDR,198.38.110.0/24,Netflix
+ - IP-CIDR,198.38.111.0/24,Netflix
+ - IP-CIDR,198.38.112.0/24,Netflix
+ - IP-CIDR,198.38.113.0/24,Netflix
+ - IP-CIDR,198.38.114.0/24,Netflix
+ - IP-CIDR,198.38.115.0/24,Netflix
+ - IP-CIDR,198.38.120.0/24,Netflix
+ - IP-CIDR,198.38.121.0/24,Netflix
+ - IP-CIDR,198.38.122.0/24,Netflix
+ - IP-CIDR,198.38.96.0/19,Netflix
+ - IP-CIDR,198.38.98.0/24,Netflix
+ - IP-CIDR,198.38.99.0/24,Netflix
+ - IP-CIDR,198.45.48.0/20,Netflix
+ - IP-CIDR,198.45.48.0/24,Netflix
+ - IP-CIDR,198.45.49.0/24,Netflix
+ - IP-CIDR,198.45.50.0/24,Netflix
+ - IP-CIDR,198.45.56.0/24,Netflix
+ - IP-CIDR,207.45.72.0/22,Netflix
+ - IP-CIDR,207.45.73.0/24,Netflix
+ - IP-CIDR,208.75.76.0/22,Netflix
+ - IP-CIDR,208.75.76.0/24,Netflix
+ - IP-CIDR,23.246.0.0/18,Netflix
+ - IP-CIDR,23.246.10.0/24,Netflix
+ - IP-CIDR,23.246.11.0/24,Netflix
+ - IP-CIDR,23.246.14.0/24,Netflix
+ - IP-CIDR,23.246.15.0/24,Netflix
+ - IP-CIDR,23.246.16.0/24,Netflix
+ - IP-CIDR,23.246.17.0/24,Netflix
+ - IP-CIDR,23.246.2.0/24,Netflix
+ - IP-CIDR,23.246.20.0/24,Netflix
+ - IP-CIDR,23.246.21.0/24,Netflix
+ - IP-CIDR,23.246.26.0/24,Netflix
+ - IP-CIDR,23.246.27.0/24,Netflix
+ - IP-CIDR,23.246.3.0/24,Netflix
+ - IP-CIDR,23.246.30.0/24,Netflix
+ - IP-CIDR,23.246.31.0/24,Netflix
+ - IP-CIDR,23.246.36.0/24,Netflix
+ - IP-CIDR,23.246.38.0/24,Netflix
+ - IP-CIDR,23.246.39.0/24,Netflix
+ - IP-CIDR,23.246.41.0/24,Netflix
+ - IP-CIDR,23.246.42.0/24,Netflix
+ - IP-CIDR,23.246.44.0/24,Netflix
+ - IP-CIDR,23.246.45.0/24,Netflix
+ - IP-CIDR,23.246.46.0/24,Netflix
+ - IP-CIDR,23.246.47.0/24,Netflix
+ - IP-CIDR,23.246.48.0/24,Netflix
+ - IP-CIDR,23.246.49.0/24,Netflix
+ - IP-CIDR,23.246.50.0/24,Netflix
+ - IP-CIDR,23.246.51.0/24,Netflix
+ - IP-CIDR,23.246.52.0/24,Netflix
+ - IP-CIDR,23.246.54.0/24,Netflix
+ - IP-CIDR,23.246.55.0/24,Netflix
+ - IP-CIDR,23.246.56.0/24,Netflix
+ - IP-CIDR,23.246.57.0/24,Netflix
+ - IP-CIDR,23.246.58.0/24,Netflix
+ - IP-CIDR,23.246.59.0/24,Netflix
+ - IP-CIDR,23.246.6.0/24,Netflix
+ - IP-CIDR,23.246.7.0/24,Netflix
+ - IP-CIDR,37.77.184.0/21,Netflix
+ - IP-CIDR,37.77.186.0/24,Netflix
+ - IP-CIDR,37.77.187.0/24,Netflix
+ - IP-CIDR,37.77.188.0/24,Netflix
+ - IP-CIDR,37.77.189.0/24,Netflix
+ - IP-CIDR,45.57.0.0/17,Netflix
+ - IP-CIDR,45.57.0.0/24,Netflix
+ - IP-CIDR,45.57.1.0/24,Netflix
+ - IP-CIDR,45.57.10.0/24,Netflix
+ - IP-CIDR,45.57.100.0/24,Netflix
+ - IP-CIDR,45.57.101.0/24,Netflix
+ - IP-CIDR,45.57.102.0/24,Netflix
+ - IP-CIDR,45.57.103.0/24,Netflix
+ - IP-CIDR,45.57.11.0/24,Netflix
+ - IP-CIDR,45.57.12.0/24,Netflix
+ - IP-CIDR,45.57.13.0/24,Netflix
+ - IP-CIDR,45.57.14.0/24,Netflix
+ - IP-CIDR,45.57.15.0/24,Netflix
+ - IP-CIDR,45.57.16.0/24,Netflix
+ - IP-CIDR,45.57.17.0/24,Netflix
+ - IP-CIDR,45.57.18.0/24,Netflix
+ - IP-CIDR,45.57.19.0/24,Netflix
+ - IP-CIDR,45.57.2.0/24,Netflix
+ - IP-CIDR,45.57.20.0/24,Netflix
+ - IP-CIDR,45.57.21.0/24,Netflix
+ - IP-CIDR,45.57.22.0/24,Netflix
+ - IP-CIDR,45.57.23.0/24,Netflix
+ - IP-CIDR,45.57.28.0/24,Netflix
+ - IP-CIDR,45.57.29.0/24,Netflix
+ - IP-CIDR,45.57.3.0/24,Netflix
+ - IP-CIDR,45.57.32.0/24,Netflix
+ - IP-CIDR,45.57.35.0/24,Netflix
+ - IP-CIDR,45.57.36.0/24,Netflix
+ - IP-CIDR,45.57.37.0/24,Netflix
+ - IP-CIDR,45.57.4.0/24,Netflix
+ - IP-CIDR,45.57.40.0/23,Netflix
+ - IP-CIDR,45.57.40.0/24,Netflix
+ - IP-CIDR,45.57.41.0/24,Netflix
+ - IP-CIDR,45.57.44.0/24,Netflix
+ - IP-CIDR,45.57.45.0/24,Netflix
+ - IP-CIDR,45.57.47.0/24,Netflix
+ - IP-CIDR,45.57.48.0/24,Netflix
+ - IP-CIDR,45.57.49.0/24,Netflix
+ - IP-CIDR,45.57.5.0/24,Netflix
+ - IP-CIDR,45.57.56.0/24,Netflix
+ - IP-CIDR,45.57.58.0/24,Netflix
+ - IP-CIDR,45.57.59.0/24,Netflix
+ - IP-CIDR,45.57.6.0/24,Netflix
+ - IP-CIDR,45.57.60.0/24,Netflix
+ - IP-CIDR,45.57.62.0/24,Netflix
+ - IP-CIDR,45.57.63.0/24,Netflix
+ - IP-CIDR,45.57.64.0/24,Netflix
+ - IP-CIDR,45.57.65.0/24,Netflix
+ - IP-CIDR,45.57.68.0/24,Netflix
+ - IP-CIDR,45.57.69.0/24,Netflix
+ - IP-CIDR,45.57.7.0/24,Netflix
+ - IP-CIDR,45.57.70.0/24,Netflix
+ - IP-CIDR,45.57.71.0/24,Netflix
+ - IP-CIDR,45.57.72.0/24,Netflix
+ - IP-CIDR,45.57.73.0/24,Netflix
+ - IP-CIDR,45.57.74.0/24,Netflix
+ - IP-CIDR,45.57.75.0/24,Netflix
+ - IP-CIDR,45.57.78.0/24,Netflix
+ - IP-CIDR,45.57.79.0/24,Netflix
+ - IP-CIDR,45.57.8.0/23,Netflix
+ - IP-CIDR,45.57.8.0/24,Netflix
+ - IP-CIDR,45.57.80.0/24,Netflix
+ - IP-CIDR,45.57.81.0/24,Netflix
+ - IP-CIDR,45.57.82.0/24,Netflix
+ - IP-CIDR,45.57.83.0/24,Netflix
+ - IP-CIDR,45.57.86.0/23,Netflix
+ - IP-CIDR,45.57.86.0/24,Netflix
+ - IP-CIDR,45.57.88.0/24,Netflix
+ - IP-CIDR,45.57.89.0/24,Netflix
+ - IP-CIDR,45.57.9.0/24,Netflix
+ - IP-CIDR,45.57.90.0/23,Netflix
+ - IP-CIDR,45.57.90.0/24,Netflix
+ - IP-CIDR,45.57.91.0/24,Netflix
+ - IP-CIDR,45.57.95.0/24,Netflix
+ - IP-CIDR,45.57.98.0/24,Netflix
+ - IP-CIDR,45.57.99.0/24,Netflix
+ - IP-CIDR,64.120.128.0/17,Netflix
+ - IP-CIDR,66.197.128.0/17,Netflix
+ - IP-CIDR,69.53.224.0/19,Netflix
+ - IP-CIDR,69.53.225.0/24,Netflix
+ - IP-CIDR,69.53.226.0/24,Netflix
+ - IP-CIDR,69.53.227.0/24,Netflix
+ - IP-CIDR,69.53.228.0/24,Netflix
+ - IP-CIDR,69.53.229.0/24,Netflix
+ - IP-CIDR,69.53.231.0/24,Netflix
+ - IP-CIDR,69.53.233.0/24,Netflix
+ - IP-CIDR,69.53.235.0/24,Netflix
+ - IP-CIDR,69.53.240.0/24,Netflix
+ - IP-CIDR,69.53.241.0/24,Netflix
+ - IP-CIDR,69.53.242.0/24,Netflix
+ - IP-CIDR,69.53.245.0/24,Netflix
+ - IP-CIDR,69.53.246.0/24,Netflix
+ - IP-CIDR,69.53.254.0/24,Netflix
+ - DOMAIN-SUFFIX,abc-studios.com,Disney
+ - DOMAIN-SUFFIX,abc.com,Disney
+ - DOMAIN-SUFFIX,adobedtm.com,Disney
+ - DOMAIN-SUFFIX,adventuresbydisney.com,Disney
+ - DOMAIN-SUFFIX,babble.com,Disney
+ - DOMAIN-SUFFIX,babyzone.com,Disney
+ - DOMAIN-SUFFIX,bam.nr-data.net,Disney
+ - DOMAIN-SUFFIX,bamgrid.com,Disney
+ - DOMAIN-SUFFIX,braze.com,Disney
+ - DOMAIN-SUFFIX,cdn.optimizely.com,Disney
+ - DOMAIN-SUFFIX,conviva.com,Disney
+ - DOMAIN-SUFFIX,d9.flashtalking.com,Disney
+ - DOMAIN-SUFFIX,dilcdn.com,Disney
+ - DOMAIN-SUFFIX,disney-asia.com,Disney
+ - DOMAIN-SUFFIX,disney-discount.com,Disney
+ - DOMAIN-SUFFIX,disney-plus.net,Disney
+ - DOMAIN-SUFFIX,disney-portal.my.onetrust.com,Disney
+ - DOMAIN-SUFFIX,disney-studio.com,Disney
+ - DOMAIN-SUFFIX,disney-studio.net,Disney
+ - DOMAIN-SUFFIX,disney.be,Disney
+ - DOMAIN-SUFFIX,disney.bg,Disney
+ - DOMAIN-SUFFIX,disney.ca,Disney
+ - DOMAIN-SUFFIX,disney.co.il,Disney
+ - DOMAIN-SUFFIX,disney.co.th,Disney
+ - DOMAIN-SUFFIX,disney.co.uk,Disney
+ - DOMAIN-SUFFIX,disney.co.za,Disney
+ - DOMAIN-SUFFIX,disney.com,Disney
+ - DOMAIN-SUFFIX,disney.com.au,Disney
+ - DOMAIN-SUFFIX,disney.com.br,Disney
+ - DOMAIN-SUFFIX,disney.cz,Disney
+ - DOMAIN-SUFFIX,disney.de,Disney
+ - DOMAIN-SUFFIX,disney.demdex.net,Disney
+ - DOMAIN-SUFFIX,disneyadsales.com,Disney
+ - DOMAIN-SUFFIX,disneyarena.com,Disney
+ - DOMAIN-SUFFIX,disneyaulani.com,Disney
+ - DOMAIN-SUFFIX,disneybaby.com,Disney
+ - DOMAIN-SUFFIX,disneycareers.com,Disney
+ - DOMAIN-SUFFIX,disneychannelonstage.com,Disney
+ - DOMAIN-SUFFIX,disneychannelroadtrip.com,Disney
+ - DOMAIN-SUFFIX,disneycruisebrasil.com,Disney
+ - DOMAIN-SUFFIX,disneyenconcert.com,Disney
+ - DOMAIN-SUFFIX,disneyiejobs.com,Disney
+ - DOMAIN-SUFFIX,disneyinflight.com,Disney
+ - DOMAIN-SUFFIX,disneyjunior.com,Disney
+ - DOMAIN-SUFFIX,disneyjuniortreataday.com,Disney
+ - DOMAIN-SUFFIX,disneylatino.com,Disney
+ - DOMAIN-SUFFIX,disneyme.com,Disney
+ - DOMAIN-SUFFIX,disneymeetingsandevents.com,Disney
+ - DOMAIN-SUFFIX,disneymovieinsiders.com,Disney
+ - DOMAIN-SUFFIX,disneymusicpromotion.com,Disney
+ - DOMAIN-SUFFIX,disneynewseries.com,Disney
+ - DOMAIN-SUFFIX,disneynow.com,Disney
+ - DOMAIN-SUFFIX,disneypeoplesurveys.com,Disney
+ - DOMAIN-SUFFIX,disneyplus.bn5x.net,Disney
+ - DOMAIN-SUFFIX,disneyplus.com,Disney
+ - DOMAIN-SUFFIX,disneyredirects.com,Disney
+ - DOMAIN-SUFFIX,disneysrivieraresort.com,Disney
+ - DOMAIN-SUFFIX,disneystore.com,Disney
+ - DOMAIN-SUFFIX,disneystreaming.com,Disney
+ - DOMAIN-SUFFIX,disneysubscription.com,Disney
+ - DOMAIN-SUFFIX,disneyturkiye.com.tr,Disney
+ - DOMAIN-SUFFIX,disneytvajobs.com,Disney
+ - DOMAIN-SUFFIX,disneyworld-go.com,Disney
+ - DOMAIN-SUFFIX,dmed.technology,Disney
+ - DOMAIN-SUFFIX,dssott.com,Disney
+ - DOMAIN-SUFFIX,dtci.co,Disney
+ - DOMAIN-SUFFIX,dtci.technology,Disney
+ - DOMAIN-SUFFIX,edgedatg.com,Disney
+ - DOMAIN-SUFFIX,espn.co.uk,Disney
+ - DOMAIN-SUFFIX,espn.com,Disney
+ - DOMAIN-SUFFIX,espn.hb.omtrdc.net,Disney
+ - DOMAIN-SUFFIX,espn.net,Disney
+ - DOMAIN-SUFFIX,espncdn.com,Disney
+ - DOMAIN-SUFFIX,espndotcom.tt.omtrdc.net,Disney
+ - DOMAIN-SUFFIX,espnqa.com,Disney
+ - DOMAIN-SUFFIX,execute-api.us-east-1.amazonaws.com,Disney
+ - DOMAIN-SUFFIX,go-disneyworldgo.com,Disney
+ - DOMAIN-SUFFIX,go.com,Disney
+ - DOMAIN-SUFFIX,js-agent.newrelic.com,Disney
+ - DOMAIN-SUFFIX,marvel.com,Disney
+ - DOMAIN-SUFFIX,marvel10thanniversary.com,Disney
+ - DOMAIN-SUFFIX,marveldimensionofheroes.com,Disney
+ - DOMAIN-SUFFIX,marvelparty.net,Disney
+ - DOMAIN-SUFFIX,marvelpinball.com,Disney
+ - DOMAIN-SUFFIX,marvelsdoubleagent.com,Disney
+ - DOMAIN-SUFFIX,marvelspotlightplays.com,Disney
+ - DOMAIN-SUFFIX,marvelsuperheroseptember.com,Disney
+ - DOMAIN-SUFFIX,marvelsuperwar.com,Disney
+ - DOMAIN-SUFFIX,mickey.tv,Disney
+ - DOMAIN-SUFFIX,moviesanywhere.com,Disney
+ - DOMAIN-SUFFIX,natgeomaps.com,Disney
+ - DOMAIN-SUFFIX,nationalgeographic.com,Disney
+ - DOMAIN-SUFFIX,nationalgeographicpartners.com,Disney
+ - DOMAIN-SUFFIX,ngeo.com,Disney
+ - DOMAIN-SUFFIX,playmation.com,Disney
+ - DOMAIN-SUFFIX,shopdisney.com,Disney
+ - DOMAIN-SUFFIX,shops-disney.com,Disney
+ - DOMAIN-SUFFIX,sorcerersarena.com,Disney
+ - DOMAIN-SUFFIX,spaindisney.com,Disney
+ - DOMAIN-SUFFIX,starwars.com,Disney
+ - DOMAIN-SUFFIX,starwarsgalacticstarcruiser.com,Disney
+ - DOMAIN-SUFFIX,streamingdisney.net,Disney
+ - DOMAIN-SUFFIX,themarvelexperiencetour.com,Disney
+ - DOMAIN-SUFFIX,thestationbymaker.com,Disney
+ - DOMAIN-SUFFIX,thisispolaris.com,Disney
+ - DOMAIN-SUFFIX,watchdisneyfe.com,Disney
+ - DOMAIN-SUFFIX,watchespn.com,Disney
+ - DOMAIN-KEYWORD,qiyi,HKMTMedia
+ - DOMAIN-SUFFIX,qy.net,HKMTMedia
+ - IP-CIDR,101.227.0.0/16,HKMTMedia,no-resolve
+ - IP-CIDR,101.224.0.0/13,HKMTMedia,no-resolve
+ - IP-CIDR,119.176.0.0/12,HKMTMedia,no-resolve
+ - DOMAIN-SUFFIX,acg.tv,HKMTMedia
+ - DOMAIN-SUFFIX,acgvideo.com,HKMTMedia
+ - DOMAIN-SUFFIX,b23.tv,HKMTMedia
+ - DOMAIN-SUFFIX,biliapi.com,HKMTMedia
+ - DOMAIN-SUFFIX,biliapi.net,HKMTMedia
+ - DOMAIN-SUFFIX,bilibili.com,HKMTMedia
+ - DOMAIN-SUFFIX,biligame.com,HKMTMedia
+ - DOMAIN-SUFFIX,biligame.net,HKMTMedia
+ - DOMAIN-SUFFIX,bilivideo.com,HKMTMedia
+ - DOMAIN-SUFFIX,hdslb.com,HKMTMedia
+ - DOMAIN-SUFFIX,im9.com,HKMTMedia
+ - DOMAIN-SUFFIX,smtcdns.net,HKMTMedia
+ - DOMAIN-SUFFIX,bahamut.com.tw,HKMTMedia
+ - DOMAIN-SUFFIX,gamer.com.tw,HKMTMedia
+ - DOMAIN-SUFFIX,hinet.net,HKMTMedia
+ - DOMAIN-SUFFIX,xeton.dev,PlusMedia
+ - DOMAIN,emby.ttgg.me,PlusMedia
+ - DOMAIN,emby.run,PlusMedia
+ - DOMAIN,emby.yoyu.ltd,PlusMedia
+ - DOMAIN,emby.ytoo.li,PlusMedia
+ - DOMAIN,emby.nyancat.net,PlusMedia
+ - DOMAIN,emby.nexitally.com,PlusMedia
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+ - GEOIP,CN,DIRECT
+ - MATCH,Proxies
