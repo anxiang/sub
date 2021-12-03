@@ -51,6 +51,9 @@ proxies:
   - {name: 🇸🇬 GLaDOS-GEOIP-SG-01, server: 03041b0.ga.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/03041b0.fm.apple.com:23622, ws-headers: {Host: api.skype.com}}
   - {name: 🇸🇬 GLaDOS-GEOIP-SG-02, server: 03041b0.gb.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/03041b0.fm.apple.com:23622, ws-headers: {Host: api.skype.com}}
   - {name: 🇸🇬 GLaDOS-GEOIP-SG-03, server: 03041b0.gd.gladns.com, port: 3205, type: vmess, uuid: 57e0cb4d-eae5-48ec-8091-149dc2b309e0, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /s/03041b0.fm.apple.com:23622, ws-headers: {Host: api.skype.com}}
+  - {name: 🇸🇬 AA-V2ray-SG-Linode, server: cdn-cn.nekocloud.cn, port: 19057, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /catnet, ws-headers: {Host: cdn-cn.nekocloud.cn}}
+  - {name: 🇸🇬 AA-V2ray-SG-NTT.01, server: cdn-cn.nekocloud.cn, port: 19079, type: vmess, uuid: 1b9b7dfc-d92b-35f0-88a3-587c7798d9e3, alterId: 0, cipher: auto, tls: false, network: ws, ws-path: /dahjwuh, ws-headers: {Host: cdn-cn.nekocloud.cn}}
+  - {name: 甲骨文-春川, server: 146.56.106.70, port: 42881, type: vmess, uuid: 27630c86-f420-45d8-a64d-f33be59ee05a, alterId: 0, cipher: auto, tls: false}
 proxy-groups:
   - name: Proxies
     type: select
@@ -165,6 +168,9 @@ proxy-groups:
       - 🇸🇬 GLaDOS-GEOIP-SG-01
       - 🇸🇬 GLaDOS-GEOIP-SG-02
       - 🇸🇬 GLaDOS-GEOIP-SG-03
+      - 🇸🇬 AA-V2ray-SG-Linode
+      - 🇸🇬 AA-V2ray-SG-NTT.01
+      - 甲骨文-春川
   - name: Netease
     type: select
     proxies:
